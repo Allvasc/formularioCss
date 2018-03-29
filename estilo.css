@@ -1,0 +1,86 @@
+body{
+ background: #3eada3;
+ font-family: 'Roboto', sans-serif;
+}
+
+
+.form-1{
+
+    display: inline-block;
+    width: 90px;
+	position: relative;
+	top: 0px;
+
+}
+
+
+.corpo{
+	height: 550px;
+	width: 400px;
+	background: white;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	left: 350px;
+	position: flex;
+	color: #979ca3;
+
+}
+
+.form-btn{
+	top: 400px;
+	left: 25px;
+	height: 40px;
+	width: 350px;
+	position: absolute;
+	background-color: #3eada3;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #979ca3;
+	cursor: pointer;
+}
+
+.form-btn:hover{
+	background-color: #979ca3;
+	
+}
+
+.icontopo{
+	font-size: 60px;
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 10px;
+	color: #3eada3;
+}
+
+.logotopo{
+	font-size: 20px;
+	position: relative;
+	margin: auto;
+	top: 10px;
+	color: #3eada3;
+	text-align: center;
+}
+
+/*style*/
+
+.forminput{
+	border:none;
+	border-bottom: 1px solid #8b8e99;
+	width: 330px;
+	height: 40px;
+	position: relative;
+	padding: 20px 0px 0px 0px;
+	left: 30px;
+	z-index: 1;
+	font-weight: bold;
+}
+
+.icon-form{
+	position: relative;
+	top: 50px;
+	left: 10px;
+	z-index: 2;
+}
+

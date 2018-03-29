@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta charset="UTF-8">
+	<meta lang="pt-br">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="Normalize.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+	<div class="corpo">
+		<div>
+			<i class="fas fa-user-circle icontopo"></i>
+			<p class="logotopo">SIGN UP</p>
+		</div>
+
+		<form class="form-1" name="form1" action="enviar.php" method="post">
+			<i class="fas fa-user icon-form"></i>
+			<input class="forminput" type="text" name="Name" placeholder="Name">
+	
+			<i class="fas fa-envelope icon-form"></i>
+			<input class="forminput" type="text" name="Email" placeholder="Email">
+		
+			<i class="fas fa-unlock icon-form"></i>
+			<input class="forminput" type="Password" name="Password" placeholder="Password">
+		
+			<i class="fas fa-lock icon-form"></i>
+			<input class="forminput" type="Password" name="rePassword" placeholder="Retype Password">
+
+			<input class="form-btn" type="submit" value="Register" onclick="return validar()">
+	</form>
+	</div>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
